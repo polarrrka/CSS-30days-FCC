@@ -1,0 +1,29 @@
+.shadow-typo {
+  position: relative;
+  display: inline-block;
+  font-size: 6rem;
+  text-transform: uppercase;
+  color: aquamarine;
+  font-family: Arial, Helvetica, sans-serif;
+  text-shadow: 3px 3px 0px #e7eef1, 8px 8px 0px rgba(0,0,0,0.1);
+}
+
+.threed-typo {
+  font-size: 6rem;
+  font-family: fantasy;
+  text-transform: uppercase;
+  color: cadetblue;
+  transform:         skew(-5deg, -5deg) rotate(5deg);
+  -webkit-transform: skew(-5deg, -5deg) rotate(5deg);
+  transform-origin: center center;
+  -webkit-transform-origin: center center;
+  text-shadow: 1px 1px darkblue, 
+               2px 2px darkblue,
+               3px 3px darkblue,
+               4px 4px darkblue,
+               5px 5px darkblue,
+               6px 6px darkblue,
+               7px 7px darkblue,
+               8px 8px darkslateblue,
+               9px 9px 15px rgba(0,0,0,0.5);
+}
