@@ -1,0 +1,41 @@
+body {
+  width: 80%;
+  margin: 20px auto;
+  display: flex;
+  background-color: lightcoral;
+  font-family: 'Courier New', Courier, monospace;
+}
+
+/* body::after {
+  display: table;
+  content: "";
+  clear: both;
+} */
+
+.page-content {
+  width: 60%;
+  margin: 0 0 40px;
+  height: 200vh;
+  border-radius: 10px;
+  background-color: lightgoldenrodyellow;
+}
+
+.page-content h3 {
+  margin: 50px;
+  padding: 20px;
+}
+
+.page-content div {
+  padding: 30px;
+}
+
+.sidebar {
+  background: lightpink;
+  padding: 40px 40px 60px;
+  box-sizing: border-box;
+  border-radius: 2px;
+  box-shadow: 0 12px 0 -6px #fa90a3;
+  position: fixed;
+  right: 5%;
+  width: 36%;
+}
