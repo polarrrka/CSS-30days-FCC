@@ -21,3 +21,7 @@ body {
   text-align: center;
   color: white;
 }
+
+.page-content {
+  height: 100vh;
+}
